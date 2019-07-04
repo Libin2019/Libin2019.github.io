@@ -11,7 +11,7 @@ background:
 
   # Custom Background Picture
   enable_picture: true
-  url: /static/images/miku.jpg
+  url: /static/images/skyblue.jpg
   css_size: cover
   css_position: 50%
 
@@ -30,7 +30,8 @@ menu:
   Home: true
   Archives: true
   Categories: false
-  Tags: false
+  Tags: true
+  About: /pages/about/index
 
   # Custom Menu
   # '/index' can be omitted
@@ -64,7 +65,7 @@ blur:
     opacity_value: 0.4
 
   gaussian_radius:
-    top_navigator: 20 # 40px+ preferred
+    top_navigator: 40 # 40px+ preferred
     header: 20 # 5 ~ 50px preferred
     footer: 20 # 5 ~ 100px preferred
 
@@ -82,11 +83,11 @@ theme_layout:
 # -------------------------------------------------------
 
 social:
-  github: https://github.com/heskeybaozi
-  weibo: http://weibo.com/52hezhiyu
+  github: https://github.com/Libin2019/Libin2019.github.io
+  weibo: https://weibo.com/5725756798/profile?rightmod=1&wvr=6&mod=personinfo&is_all=1
 
   # Email link, reference to https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks#E-mail_links
-  email: mailto:hezhiyu233@foxmail.com
+  email: 
 
 
 social_icons:
@@ -146,5 +147,5 @@ google_analytics:
 # powered_by: false
 # powered_by: ''
 powered_by:
-  text:  Hexo Theme Lite
-  url:  https://github.com/HeskeyBaozi/hexo-theme-lite/ # or false to disable link
+  text:  前端渣渣辉
+  url:  https://github.com/Libin2019/Libin2019.github.io # or false to disable link
