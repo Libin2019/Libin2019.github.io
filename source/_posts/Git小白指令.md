@@ -13,6 +13,11 @@ tags:
 * git pull origin master 表示将远程仓库的代码拉取与本地代码进行合并，
 * git status  这个命令可以让我们了解当前仓库的状态，哪些文件已经修改但是还没有提交，
 * git log 表示查看提交到git仓库的所有版本，
+* git branch dev(分之的名称) 创建一个新的分支
+* git checkout dev 选中新创建的分之进行操作
+* git merge dev 在切换到master分支上 进行将dev分支的操作合并到master分支上
+* git branch -d dev 将刚才已经操作过的分支删除
+* git branch 查看当前所有分支
 
 
 <center>未完待续.....</center>

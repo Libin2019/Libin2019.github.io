@@ -1,10 +1,10 @@
 ---
-title: Flutter
+title: Flutter踩坑记---关于SimpleDialog报错
 date: 2019-07-05 01:52:00
 tags:
     -Flutter
 ---
-看了好久的官网，对于官方文档给的这个demo，始终不太明白，今天将报错百度了一下，终于解惑了。直接上demo
+看了好久的官网，对于官方文档给的这个demo，始终不太明白，今天将报错百度了一下，终于解惑了。直接上SimpleDialog正确写法的demo
 ~~~
     import 'package:flutter/material.dart';
     
@@ -63,11 +63,12 @@ tags:
       }
     }
 ~~~
+<!-- more -->
 一直过不去的坑是自己直接写了一个StatefluWidget去实现弹窗，点击按钮没有任何效果并且控制台报错 Another exception was thrown: No MaterialLocalizations found.
 正确的写法应该是在外层套一个StatelessWidget的控件，这样才能正确实现flutter的弹窗。
-<!-- more -->
 
-####错误示范：
+    
+**错误示范：**
 ~~~
 import 'package:flutter/material.dart';
 
