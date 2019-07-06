@@ -20,4 +20,15 @@ tags:
 * git branch 查看当前所有分支
 
 
+
+
+**常见的报错**
+_一、_ ![rejected] master-> master( fetch first)  error failed to push some ...
+
+出现的原因：出现这类问题大部分是因为上一次没有从远程直接拉取代码而直接上传。
+解决方案：可以尝试 git pull origin master 先从远端拉取，再进行git push origin master
+
+
+
+
 <center>未完待续.....</center>

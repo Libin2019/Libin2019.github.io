@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Flutter.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Flutter.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Git小白指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git小白指令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,9 +44,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/Git小白指令.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="210">
+                <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,11 +54,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_posts/Flutter.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/凑文章的一篇文章.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1418">
-                <caret line="119" column="3" lean-forward="true" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="3" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,11 +66,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md">
+        <entry file="file://$PROJECT_DIR$/source/_posts/Flutter.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="357">
-                <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <first_editor relative-caret-position="2226">
+                <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -95,9 +95,10 @@
         <option value="$PROJECT_DIR$/source/_posts/flutter弹窗.md" />
         <option value="$PROJECT_DIR$/source/_posts/FirstArticle.md" />
         <option value="$PROJECT_DIR$/source/_posts/git-学习笔记（一）.md" />
-        <option value="$PROJECT_DIR$/source/_posts/Git小白指令.md" />
-        <option value="$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md" />
         <option value="$PROJECT_DIR$/source/_posts/Flutter.md" />
+        <option value="$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md" />
+        <option value="$PROJECT_DIR$/source/_posts/Git小白指令.md" />
+        <option value="$PROJECT_DIR$/source/_posts/凑文章的一篇文章.md" />
       </list>
     </option>
   </component>
@@ -161,6 +162,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -197,18 +199,18 @@
       <updated>1562261676141</updated>
       <workItem from="1562261683720" duration="3130000" />
       <workItem from="1562333553370" duration="6686000" />
-      <workItem from="1562347647620" duration="3803000" />
+      <workItem from="1562347647620" duration="4403000" />
+      <workItem from="1562417056569" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13619000" />
+    <option name="totallyTimeSpent" value="19765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17305152" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19022457" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -246,11 +248,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/flutter弹窗.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/Git小白指令.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/FirstArticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <first_editor relative-caret-position="84">
+            <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
@@ -266,21 +268,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/FirstArticle.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/flutter弹窗系列（二）.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="357">
-            <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+          <first_editor relative-caret-position="242">
+            <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
           </first_editor>
           <second_editor />
         </state>
@@ -289,8 +281,28 @@
     <entry file="file://$PROJECT_DIR$/source/_posts/Flutter.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1418">
-            <caret line="119" column="3" lean-forward="true" selection-start-line="119" selection-start-column="3" selection-end-line="119" selection-end-column="3" />
+          <first_editor relative-caret-position="2226">
+            <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/Git小白指令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/凑文章的一篇文章.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
           </first_editor>
           <second_editor />
         </state>
