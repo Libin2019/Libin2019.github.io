@@ -66,15 +66,16 @@ Tip:
 * Decoration Container容易常用的是boxDecoration，继承自Decoration类。
     - 边框：border 
     ~~~
+       //设置四条黑色的宽度为3的边框
        BoxDecoration(
          border: Border.all(color: Colors.black, width: 3, style: BorderStyle.solid)
        )
        
-       // 设置单边框：上边框为1px粗细的黑色实线边框，右边框为1px粗细的红色实线边框
+       // 设置单边框：上边框为3px粗细的黑色实线边框，右边框为1px粗细的红色实线边框
        BoxDecoration(
          border: Border(
-           top: BorderSide(color: Colors.black, width: 1, style: BorderStyle.solid),
-           right: BorderSide(color: Colors.red, width: 1, style: BorderStyle.solid),
+           top: BorderSide(color: Colors.black, width: 2, style: BorderStyle.solid),
+           right: BorderSide(color: Colors.red, width: 2, style: BorderStyle.solid),
          ),
        )
     ~~~
@@ -113,20 +114,20 @@ Tip:
     ![](flutter-widgets/borderRadius.PNG)
     -渐变 gradient
     ~~~
-        // 从左到右，红色到蓝色的线性渐变
+        // 从左到右，黄色到蓝色的线性渐变
         BoxDecoration(
           gradient: LinearGradient(
             begin: Alignment.centerLeft,
             end: Alignment.centerRight,
-            colors: [Colors.red, Colors.blue],
+            colors: [Colors.yellow, Colors.blue],
           ),
         )
         
-        // 从中心向四周扩散，红色到蓝色的径向渐变
+        // 从中心向四周扩散，黄色到蓝色的径向渐变
         BoxDecoration(
           gradient: RadialGradient(
             center: Alignment.center,
-            colors: [Colors.red, Colors.blue],
+            colors: [Colors.yellow, Colors.blue],
           ),
         )
     ~~~
@@ -458,7 +459,9 @@ GridView({
 ~~~
 ![](flutter-widgets/TextField.gif)
 
-还有一个表单,TextFormField，和TextField的区别就是需要一个formKey值，并且自带验证,具体可以查看[官网](https://flutterchina.club/text-input/)对这部分的介绍
+还有一个表单,TextFormField，需要用Form控件作为父级容器，用法和TextField是一样的，区别是他需要一个formKey值，并且自带验证,具体可以查看[官网](https://flutterchina.club/text-input/)对这部分的介绍
+
+
 
 差不多就这些吧，谢谢。
 

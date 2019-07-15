@@ -31,7 +31,7 @@ menu:
   Archives: true
   Categories: false
   Tags: true
-  About: /pages/about/index
+  About: true
 
   # Custom Menu
   # '/index' can be omitted
