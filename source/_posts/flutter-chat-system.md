@@ -5,8 +5,7 @@ tags:
     -Flutter
 ---
 
-因为最近在从事FLutter的工作，所以还是有必要去做一些相关笔记的，FLutter的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供
-直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java有一定的了解，
+因为最近在从事FLutter的工作，所以还是有必要去做一些相关笔记的，FLutter的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java有一定的了解，
 不然就只能像我这样，黑夜中抓瞎。不多说了，写个聊天的小demo，目前只是实现基础的布局，可以先看一下效果。
 ![](flutter-chatSystem/chatListPage.gif)
 关于布局，其实没什么可以说的了，这是最基本的布局。因为表单这一块还没有思路，并没有展示出来。
