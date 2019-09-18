@@ -5,8 +5,7 @@ tags:
     -Flutter
 ---
 
-最近一直在学习`flutter`，所以还是有必要去做一些相关笔记的，`flutter`的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java以及Ios
-的Oc有一定的基础有一定的了解，
+最近一直在学习`flutter`，所以还是有必要去做一些相关笔记的，`flutter`的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java以及Ios的Oc有一定的基础有一定的了解，
 不然就只能像我这样，黑夜中抓瞎。不多说了，写个聊天的小demo，目前只是实现基础的布局，可以先看预览的一下效果。
 ![](flutter-chatSystem/chatPage.gif)
 
