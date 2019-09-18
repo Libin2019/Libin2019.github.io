@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/flutter-chat-system.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/flutter-chatSystem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/flutter-chatSystem.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/flutter-chatSystem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/git-学习笔记（一）.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +68,8 @@
       <workItem from="1565718256082" duration="599000" />
       <workItem from="1566108905177" duration="2068000" />
       <workItem from="1567782816924" duration="7668000" />
-      <workItem from="1568119907613" duration="1877000" />
+      <workItem from="1568119907613" duration="3119000" />
+      <workItem from="1568732442149" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="聊天系统一">
       <created>1565103422680</created>

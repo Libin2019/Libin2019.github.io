@@ -7,9 +7,11 @@ tags:
 
 最近一直在学习`flutter`，所以还是有必要去做一些相关笔记的，`flutter`的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java以及Ios
 的Oc有一定的基础有一定的了解，
-不然就只能像我这样，黑夜中抓瞎。不多说了，写个聊天的小demo，目前只是实现基础的布局，可以先看一下效果。
-![](flutter-chatSystem/chatListPage.gif)
+不然就只能像我这样，黑夜中抓瞎。不多说了，写个聊天的小demo，目前只是实现基础的布局，可以先看预览的一下效果。
+![](flutter-chatSystem/chatPage.gif)
 
+**第一步 首先实现基础的列表以及路由的跳转**
+![](flutter-chatSystem/chatListPage.gif)
 关于布局，其实没什么可以说的了，这是最基本的布局。因为表单这一块还没有思路，并没有展示出来。
 整个小demo是分了两个`.dart`文件的。
 `main.dart`入口函数
@@ -148,7 +150,7 @@ class _ChatPageState extends State<ChatPage> {
 一定要注意变量名需要正确匹配！
 ~~~
 
-
+**第二步，实现连天页面的布局以及聊天记录**
 然后到了关于聊天消息的页面，这边假设了一下聊天消息，和user识别，以及对应user的头像。先看一下效果图吧。
 ![](flutter-chatSystem/chatPage.gif)
 ~~~
@@ -240,17 +242,17 @@ class _ChatPageState extends State<ChatPage> {
 }
 ~~~
 
-在这里 ，我们整体的布局建议采用 外层Column嵌套ListView的布局来实现 ，内部ListView用于实现聊天记录的滚动，外层用来保证下面将要写的
-表单不被键盘弹出框遮住。如果你使用ListView嵌套listview的话 可能会有一些布局显示不出来的小问题 ，解决方案是在外层Listview内添加如下内容
+在这里 ，我们整体的布局建议采用 外层Column嵌套ListView的布局来实现 ，内部ListView用于实现聊天记录的滚动，外层用来保证下面将要写的表单不被键盘弹出框遮住。如果你使用ListView嵌套listview的话 可能会有一些布局显示不出来的小问题 ，解决方案是在外层Listview内添加如下内容
 ~~~
 shrinkWrap: true, //内容适配
 physics: new NeverScrollableScrollPhysics(),// 禁止滚动
 ~~~
+我们将每一个对话定义为conversation，这个conversation里面包含消息发送者的资料，以及消息文本 ，将这些数据放在一个数组内，由ListView.builder构造函数将每一条渲染出来，
 
 聊天页面最重要的便是提供用户输入内容的表单了。
 
 ---
-
+**第三步  完善表单**
 继续更 ，现在完成了表单的输入以及消息内容的发送，老规矩 ，先上图：
 ![](flutter-chatSystem/sendMessage.gif)
 
@@ -297,6 +299,7 @@ class _ChatPageState extends State<ChatPage> {
                   },
                 ),
                 onTap: (){
+// 点击聊天记录空白处，将表单的焦点，即让弹出的键盘框收回去。
                   focusNode.unfocus();
                 },
               )
@@ -342,6 +345,9 @@ class _ChatPageState extends State<ChatPage> {
                   child: isSend == false ? Image.asset("image/add.png",width: 30,height: 30,) : InkWell(
                     child: Image.asset("image/send.png",width: 30,height: 30,),
                     onTap: (){
+
+// 点击发送时，我们将存放conversation的数组新增一条消息记录，默认头像是自己的头像 ，用户点击发送后，将表单内的文本内容添加到conversation里面，
+并初始化表单为 “” 。
                       setState(() {
                         conversations.add(Conversation("image/demo2.jpg", _message.text, 1));
                       });
@@ -424,4 +430,5 @@ class ConversationItem extends StatelessWidget {
 }
 
 ~~~
+
 
