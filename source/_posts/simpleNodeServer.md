@@ -7,7 +7,7 @@ tags:
 #### Node实现一个简单的服务器，并初步实现路由
 
 ![](simpleNodeServer/node_router.gif)
-
+<!-- more -->
 首先，用Node去创建一个最简单最基本的HTTP服务器，创建一个`server.js`文件
 ~~~
 // 引入http模块
