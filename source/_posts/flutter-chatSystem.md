@@ -7,7 +7,7 @@ tags:
 
 最近一直在学习`flutter`，所以还是有必要去做一些相关笔记的，`flutter`的生态有待完善，尤其是集成第三方SDK，目前大多数第三方包都是没有给flutter提供直接import集成方法的，但是好在flutter可以使用MethodChannel等方法来与底层进行通信，有助于我们更好的去集成，但是在此之前，你需要对flutter的dart和安卓的java以及Ios的Oc有一定的基础有一定的了解，
 不然就只能像我这样，黑夜中抓瞎。不多说了，写个聊天的小demo，目前只是实现基础的布局，可以先看预览的一下效果。
-![](flutter-chatSystem/chatPage.gif)
+![](flutter-chatSystem/sendMessage.gif)
 
 **第一步 首先实现基础的列表以及路由的跳转**
 ![](flutter-chatSystem/chatListPage.gif)
@@ -429,5 +429,28 @@ class ConversationItem extends StatelessWidget {
 }
 
 ~~~
+### 继续更新一下代码存在的问题：
+- 修改输入框使用的固定宽度，改用 `constraints` 来为聊天消息的容器设置最大宽度，如果小于最大宽度，默认容器大小由子元素撑开，大于最大宽度，
+默认换行。
+在聊天消息的布局处添加contraints属性，设置maxWidth
+~~~
+...
+constraints: BoxConstraints(
+                maxWidth: MediaQuery.of(context).size.width/2,
+              ),
+...
+~~~
 
-
+- 完善输入框输入完内容后 “+” 图标无法替换发送的图标，在发送消息事件最后把`isSend`设置为false
+~~~
+onTap: (){
+  setState(() {
+    conversations.add(Conversation("image/demo2.jpg", _message.text, 1));
+  });
+  _message.clear();
+//修改isSend的值
+  isSend = false ;
+},
+~~~
+##### 再来看一下效果
+![](flutter-chatSystem/sendMessageTwo.gif)
