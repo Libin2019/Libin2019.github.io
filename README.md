@@ -1,4 +1,5 @@
 # Libin2019.github.io
+<<<<<<< HEAD
 first demo
 <<<<<<< HEAD
 
@@ -7,3 +8,6 @@ first demo
 =======
 简单用这个博客记录一下生活工作的笔记。用来不断提高完善自己，加油！
 >>>>>>> 06c995f884d2dccea27b324734a403ce9de156c6
+=======
+个人记录的工作学习笔记
+>>>>>>> 073b33cb05ddcdaa99bbcb1209ce12a6e4ea510c
