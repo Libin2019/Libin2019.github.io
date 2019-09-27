@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="" />
+    <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about/新建文本文档.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-lite/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-lite/_config.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,8 @@
       <workItem from="1568119907613" duration="3119000" />
       <workItem from="1568732442149" duration="4907000" />
       <workItem from="1569337487626" duration="4410000" />
-      <workItem from="1569506149414" duration="2550000" />
+      <workItem from="1569506149414" duration="3461000" />
+      <workItem from="1569586275471" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="聊天系统一">
       <created>1565103422680</created>

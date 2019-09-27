@@ -31,7 +31,7 @@ menu:
   Archives: true
   Categories: false
   Tags: true
-  About: true
+  #About: true
 
   # Custom Menu
   # '/index' can be omitted
@@ -40,7 +40,7 @@ menu:
   # [X]  About: /about/index       (need '/pages' as prefix)
   # [O]  About: /pages/about/index (preferred)
   # [O]  About: /pages/about
-  # About: /pages/about/index
+
 
 menu_icons:
   enable: true
