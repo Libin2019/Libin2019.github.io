@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/新建文本文档.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/hexo-theme-lite/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/hexo-theme-lite/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Git小白指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git小白指令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Git笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +72,8 @@
       <workItem from="1568732442149" duration="4907000" />
       <workItem from="1569337487626" duration="4410000" />
       <workItem from="1569506149414" duration="3461000" />
-      <workItem from="1569586275471" duration="2179000" />
+      <workItem from="1569586275471" duration="4789000" />
+      <workItem from="1570611099809" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="聊天系统一">
       <created>1565103422680</created>
