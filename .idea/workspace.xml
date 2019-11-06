@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="433d29ed-e8dc-4183-9c07-35e8cf608267" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/_posts/css-vw-vh/test.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Git小白指令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git小白指令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Git笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Git笔记.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +20,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/_posts/css-vw-vh" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,6 +30,11 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Blog\blog\source\_posts\css-vw-vh" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,7 +77,10 @@
       <workItem from="1569337487626" duration="4410000" />
       <workItem from="1569506149414" duration="3461000" />
       <workItem from="1569586275471" duration="4789000" />
-      <workItem from="1570611099809" duration="108000" />
+      <workItem from="1570611099809" duration="657000" />
+      <workItem from="1572759267923" duration="3000" />
+      <workItem from="1572759326649" duration="869000" />
+      <workItem from="1573046418179" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="聊天系统一">
       <created>1565103422680</created>
